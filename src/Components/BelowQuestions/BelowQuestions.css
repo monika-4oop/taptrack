@@ -1,0 +1,17 @@
+
+.page__question-box{
+  
+    display: flex;
+    flex-direction: column;
+    padding: 32px 16px;
+    margin-bottom: 32px;
+    background: #fff;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 120px;
+    align-items: center;
+    width: 90vw;
+    max-width: 800px;
+    box-shadow: 0 0 4px 0 rgb(21 21 21 / 14%), 0 16px 20px -5px rgb(21 21 21 / 18%);
+    border-radius: 9px;
+}

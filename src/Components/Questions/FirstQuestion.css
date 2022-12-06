@@ -1,0 +1,150 @@
+
+.page__question-box{
+  
+    display: flex;
+    flex-direction: column;
+    padding: 32px 16px;
+    margin-bottom: 32px;
+    background: #fff;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 120px;
+    align-items: center;
+    width: 90vw;
+    max-width: 800px;
+    box-shadow: 0 0 4px 0 rgb(21 21 21 / 14%), 0 16px 20px -5px rgb(21 21 21 / 18%);
+    border-radius: 9px;
+}
+.multi-select-button__wrapper {
+    margin: 8px 0 32px 0;
+}
+.multi-select-button {
+    align-items: center;
+}
+.multi-select-button__title-wrapper {
+    margin-bottom: 16px;
+}
+
+.multi-select-button__title {
+    margin: 0 24px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.question_box{
+    display: flex;
+    justify-content:space-between;
+    gap:20px;
+}
+.FQues{
+    width : 200px; 
+    margin-bottom: 40px;
+    border:1px solid grey;
+    border-radius: 8px;
+   
+}
+.SQues{
+    width : 200px; 
+    margin-bottom: 40px;
+    border:1px solid grey;
+    border-radius: 8px;
+}
+ .img_box{
+    padding:20px; 
+    color:black;  
+    
+}
+.img_boxs {
+    padding:20px; 
+    color:black; 
+    
+}
+
+
+.Fbox :hover{
+    background-color:#959699;
+    width : 200px; 
+    cursor: pointer;
+   
+}
+.input_div{
+    width : 270px;
+    height:40px;
+    border:1px solid  black;
+    margin-left: 40px;
+    border-radius: 7px;
+}
+.input_div input{
+    border:none;
+    padding:10px;
+}
+.slider-parent{
+    width:180px;
+    margin-left:90px;
+    color:black;
+    margin-top: 30px;
+}
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width:15px;
+    height: 10px;
+    border-radius: 20px;
+    background: #202b9d;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width:15px;
+    height: 10px;
+    border-radius: 20px;
+    background: #202b9d;
+    cursor: pointer;
+  }
+
+  .navigation-button__containers
+   {
+    margin: 0 0 8px;
+    width:140px;
+    height:30px;
+    justify-content: center;
+    cursor: pointer;
+    background: blue;
+    margin-left: -30px;
+}
+.navigation-button__containers button{
+    margin: 0 0 8px;
+    width:140px;
+    height:30px;
+    justify-content: center;
+    cursor: pointer;
+    background: blue;
+    color: white;
+    border: none; 
+     /* margin-left: -30px; */
+     /* margin-top: 20px; */
+}
+
+.navigation-button__container {
+    margin: 0 0 8px;
+    justify-content: center;
+    cursor: pointer;
+         margin-left: -30px; 
+     margin-top: 20px;
+}
